@@ -4,14 +4,14 @@ Site do app Broto em três idiomas: landing, documentos legais, ajuda e as duas
 páginas transacionais que fecham cadastro e troca de senha.
 
 Next.js com App Router, exportado como site estático (`output: "export"`) e
-servido pelo GitHub Pages em **https://ghabriel-elias.github.io/broto**. Não há
+servido pelo GitHub Pages em **https://brotoplantas.com**. Não há
 servidor: o build gera HTML e o Pages entrega.
 
 ## Como rodar
 
 ```bash
 npm install
-npm run dev        # http://localhost:3000/broto
+npm run dev        # http://localhost:3000
 npm run typecheck
 npm run lint
 npm run build      # gera ./out
@@ -33,9 +33,9 @@ src/
 │   ├── doc/                 documentos: uma tela para os cinco textos
 │   └── auth/                confirmado e nova-senha, com seus hooks
 ├── components/              Topbar, Footer, LangMenu, Icons, Link
-├── constants/               rotas, idiomas, chaves do Supabase
+├── constants/               rotas, idiomas, endereço da API
 ├── i18n/locales/            pt-BR, en-US, es-ES
-├── services/                supabaseAuth
+├── services/                brotoApi
 ├── style/                   globals.css e as fontes
 └── utils/                   password, authLink
 ```
@@ -81,8 +81,8 @@ provider.
 
 ## O que não pode quebrar
 
-`/confirmado` e `/nova-senha` são transacionais: o link do e-mail do Supabase cai
-nelas. Se pararem de funcionar, ninguém confirma cadastro nem recupera senha.
+`/confirmado` e `/nova-senha` são transacionais: o link do e-mail enviado pela
+broto-api cai nelas. Se pararem de funcionar, ninguém confirma cadastro nem recupera senha.
 
 São as únicas páginas com `"use client"`. Ficam fora da navegação, fora do
 seletor de idioma e levam `noindex`. O idioma delas **não vem da URL** — vem do
@@ -90,14 +90,14 @@ navegador, porque o link do e-mail é sempre o mesmo para todo mundo.
 `useAuthCopy` resolve isso com `useSyncExternalStore`, devolvendo `null` no
 servidor para o HTML sair neutro e não dar divergência na hidratação.
 
-`src/services/supabaseAuth.ts` fala direto com a API REST de auth, sem SDK. O
+`src/services/brotoApi.ts` fala direto com a API REST de auth, sem SDK. O
 link usa `token_hash`, e **não** o código PKCE: o verificador do PKCE mora no
 armazenamento do celular, então o navegador nunca conseguiria completar uma troca
 iniciada pelo app. O token some da URL com `history.replaceState` assim que é
 lido, para não ficar no histórico nem vazar pelo `Referer`.
 
-A `anon key` em `src/constants/supabase.ts` é pública por definição — já vai no
-bundle do app — e sozinha não abre nada: a RLS continua valendo.
+Nenhum segredo vive aqui. O `src/constants/api.ts` guarda só o endereço público
+da API; a verificação do token acontece no servidor.
 
 ## Cor e tipografia
 
@@ -119,38 +119,35 @@ estar em **GitHub Actions**.
 `public/.nojekyll` é obrigatório: sem ele o Pages ignora `_next/` e o site sobe
 sem CSS nem JavaScript.
 
-### Domínio próprio
+### Domínio
 
-Um domínio próprio serve o site na raiz, então o `basePath` `/broto` deixa de
-fazer sentido. Troque `BASE_PATH` em `src/constants/site.ts` para `""` antes de
-apontar o DNS, e crie `public/CNAME` com o domínio numa linha só. No DNS: num
-subdomínio, um `CNAME` para `ghabriel-elias.github.io`; no domínio raiz, quatro
-registros `A` para `185.199.108.153`, `185.199.109.153`, `185.199.110.153` e
-`185.199.111.153`. Depois marque **Enforce HTTPS**.
+O site serve em **brotoplantas.com**, na raiz, então `BASE_PATH` em
+`src/constants/site.ts` é `""`. `public/CNAME` carrega o domínio numa linha só e
+é ele que o Pages lê a cada publicação — apagar o arquivo derruba o domínio.
+
+Se um dia o endereço mudar: no DNS, um subdomínio quer um `CNAME` para
+`jegue-tecnologias.github.io`; o domínio raiz quer quatro registros `A` para
+`185.199.108.153`, `185.199.109.153`, `185.199.110.153` e `185.199.111.153`.
+Depois marque **Enforce HTTPS**. Voltar a servir num subcaminho exige devolver o
+`basePath` a `BASE_PATH` e remover o `CNAME`.
 
 ## Do outro lado
 
 No app, `SITE_BASE_URL` em `src/constants/legal.ts` aponta para
-https://ghabriel-elias.github.io/broto. É o único lugar a trocar se o endereço
+https://brotoplantas.com. É o único lugar a trocar se o endereço
 mudar: os caminhos em `LEGAL_PATHS` continuam iguais, porque o app escolhe o
 idioma sozinho a partir de `i18n.language`.
 
-No Supabase, em **Authentication → URL Configuration**, o **Site URL** é
-`https://ghabriel-elias.github.io/broto` — com o prefixo, porque os modelos de
-e-mail montam o link como `{{ .SiteURL }}/confirmado`. Em **Redirect URLs**,
-libere `/broto/nova-senha` e `/broto/confirmado` no mesmo host.
+Na broto-api, o `.env` precisa de `SITE_URL` apontando para este site — é dele
+que saem os links dos e-mails, montados como
+`${SITE_URL}/confirmado?token_hash=...&type=email` e
+`${SITE_URL}/nova-senha?token_hash=...&type=recovery`. A origem do site também
+precisa estar em `CORS_ORIGINS`, senão o navegador bloqueia a chamada de
+verificação.
 
-Em **Authentication → Email Templates**, os dois modelos precisam apontar para as
-páginas certas:
-
-```html
-<a href="{{ .SiteURL }}/confirmado?token_hash={{ .TokenHash }}&type=email">Confirmar meu e-mail</a>
-<a href="{{ .SiteURL }}/nova-senha?token_hash={{ .TokenHash }}&type=recovery">Criar nova senha</a>
-```
-
-Sem essa troca os modelos continuam usando `{{ .ConfirmationURL }}`, que aponta
-para o Site URL e ignora as páginas. O SMTP embutido envia **2 e-mails por hora
-no projeto inteiro** e não serve para produção.
+As duas páginas chamam `POST /v1/auth/verify` com o `token_hash` da URL. Na
+recuperação, a sessão devolvida serve para `PATCH /v1/auth/password`. Tokens de
+e-mail expiram em uma hora e são de uso único.
 
 Nas lojas, use a versão em português: `/privacidade` no campo de Privacy Policy,
 `/exclusao` no campo de exclusão de dados do Google Play e `/ajuda` no Support

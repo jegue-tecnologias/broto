@@ -1,6 +1,6 @@
-export const BASE_PATH = "/broto";
+export const BASE_PATH = "";
 
-export const SITE_URL = `https://ghabriel-elias.github.io${BASE_PATH}`;
+export const SITE_URL = "https://brotoplantas.com";
 
 export const SUPPORT_EMAIL = "falecombroto@gmail.com";
 

@@ -1,4 +1,4 @@
-import { Drop, Info, Mark, Paw, Sprout, Sun } from "@/components/Icons";
+import { Drop, Info, Paw, PlantMark, Sprout, Sun } from "@/components/Icons";
 import { list, type T } from "@/i18n";
 
 type Cause = { cause: string; blocks: { label: string; body: string }[] };
@@ -19,7 +19,7 @@ export function AppMock({ t, variant = "full" }: AppMockProps) {
   return (
     <div className="app">
       <div className="app-photo">
-        <Mark tone="muted" />
+        <PlantMark tone="muted" />
       </div>
 
       <div className="app-sheet">

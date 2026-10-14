@@ -1,4 +1,4 @@
-import { Bolt, Close, Gallery, HelpCircle, Mark } from "@/components/Icons";
+import { Bolt, Close, Gallery, HelpCircle, PlantMark } from "@/components/Icons";
 import { Rich } from "@/components/Rich";
 import type { T } from "@/i18n";
 
@@ -7,7 +7,7 @@ export function CameraMock({ t }: { t: T }) {
     <div className="app-camera">
       <div className="cam-view">
         <div className="cam-guide">
-          <Mark tone="muted" />
+          <PlantMark tone="muted" />
         </div>
         <div className="cam-top">
           <span className="cam-circle">

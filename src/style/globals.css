@@ -94,7 +94,7 @@ a:focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; border-ra
   margin-right: auto;
 }
 
-.brand svg { width: 27px; height: 34px; display: block; }
+.brand svg { width: 22px; height: 34px; display: block; }
 
 .brand span {
   font-family: var(--font-display), Georgia, serif;
@@ -389,7 +389,7 @@ main h1:focus:not(:focus-visible) { outline: none; }
   padding: 40px 32px;
 }
 
-.auth-mark { width: 50px; height: 63px; margin: 0 auto 26px; display: block; }
+.auth-mark { width: 44px; height: 69px; margin: 0 auto 26px; display: block; }
 
 .auth h1 {
   font-family: var(--font-display), Georgia, serif;
@@ -1212,7 +1212,7 @@ main h1:focus:not(:focus-visible) { outline: none; }
   background: #F7F4ED;
 }
 
-.home .notif-icon svg { width: 27px; height: 33px; }
+.home .notif-icon svg { width: 18px; height: 28px; }
 
 .home .notif-texts { flex: 1; min-width: 0; }
 

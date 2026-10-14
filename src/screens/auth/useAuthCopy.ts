@@ -28,8 +28,7 @@ export function useAuthCopy() {
   return { locale, t: locale ? getT(locale, "auth") : null };
 }
 
-export function friendlyError(t: T, message: string) {
-  if (/different from the old password/i.test(message)) return t("same");
-  if (/password/i.test(message) && /least|short|weak/i.test(message)) return t("weak");
+export function friendlyError(t: T, code: string) {
+  if (code === "senha_invalida") return t("weak");
   return t("generic");
 }

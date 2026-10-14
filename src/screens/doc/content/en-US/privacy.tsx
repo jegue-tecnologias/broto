@@ -54,7 +54,9 @@ export function Body() {
       <h2>Who we share it with</h2>
       <p>We share only what the app needs to work, with providers acting as processors:</p>
       <ul>
-        <li><strong>Supabase</strong> — database, authentication and photo storage.</li>
+        <li><strong>Amazon Web Services</strong> — server, database and photo storage.</li>
+        <li><strong>Cloudflare</strong> — delivery and protection of the traffic between the app and the server.</li>
+        <li><strong>Brevo</strong> — sending the signup confirmation and password recovery emails.</li>
         <li><strong>Anthropic</strong> — artificial intelligence provider. Receives the photo to identify the species and assess its health, your Brotinho messages along with the data of the plant in question, and the term you type into search. Everything is sent by our server, never directly from your device.</li>
         <li><strong>RevenueCat</strong> — manages subscription status.</li>
         <li><strong>PostHog</strong> — error monitoring. It only receives the technical report of an app failure: the error message, the screen where it happened, the device model and the OS version. It does not receive your name, your email or your photos, and we do not use it to track what you do in the app.</li>

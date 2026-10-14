@@ -1,7 +1,7 @@
 "use client";
 
 import { AuthShell } from "@/components/AuthShell";
-import { APP_SCHEME } from "@/constants/supabase";
+import { APP_SCHEME } from "@/constants/api";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
 
 import { Bad, Checking, Done } from "../components/AuthStates";

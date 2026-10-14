@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-import { verifyToken } from "@/services/supabaseAuth";
+import { verifyToken } from "@/services/brotoApi";
 import { readAuthLink } from "@/utils/authLink";
 
 export type ConfirmPhase = "checking" | "ok" | "bad";

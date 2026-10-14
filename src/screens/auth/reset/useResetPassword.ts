@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 
-import { setPassword as savePassword, verifyToken } from "@/services/supabaseAuth";
+import { setPassword as savePassword, verifyToken } from "@/services/brotoApi";
 import { readAuthLink } from "@/utils/authLink";
 import { checkPassword, passwordValid } from "@/utils/password";
 

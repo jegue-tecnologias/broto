@@ -57,7 +57,7 @@ export function Body() {
         <li><strong>Amazon Web Services</strong> — servidor, banco de dados e armazenamento das fotos.</li>
         <li><strong>Cloudflare</strong> — entrega e proteção do tráfego entre o app e o servidor.</li>
         <li><strong>Brevo</strong> — envio dos e-mails de confirmação de cadastro e de recuperação de senha.</li>
-        <li><strong>Anthropic</strong> — provedor de inteligência artificial. Recebe a foto para identificar a espécie e avaliar a saúde, as suas mensagens no Brotinho junto com os dados da planta em questão, e o termo digitado na busca. Tudo é enviado pelo nosso servidor, nunca direto do seu aparelho.</li>
+        <li><strong>DeepSeek</strong> — provedor de inteligência artificial. Recebe a foto para identificar a espécie e avaliar a saúde, as suas mensagens no Brotinho junto com os dados da planta em questão, e o termo digitado na busca. Tudo é enviado pelo nosso servidor, nunca direto do seu aparelho.</li>
         <li><strong>RevenueCat</strong> — controla o status da assinatura.</li>
         <li><strong>PostHog</strong> — monitoramento de erros. Recebe apenas o relatório técnico de uma falha do app: mensagem do erro, tela em que aconteceu, modelo do aparelho e versão do sistema. Não recebe seu nome, seu e-mail nem suas fotos, e não usamos para acompanhar o que você faz no app.</li>
         <li><strong>Apple e Google</strong> — processam o pagamento. Nós não recebemos nem armazenamos dados do seu cartão em momento algum.</li>

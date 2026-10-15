@@ -51,10 +51,10 @@ export function Body() {
       <p>Contas que descumprirem estas regras podem ser suspensas ou encerradas.</p>
 
       <h2>Assinatura</h2>
-      <p>O Broto oferece três dias de teste com acesso completo a partir do cadastro, análises avulsas pagas e uma assinatura completa com até 40 análises e 150 mensagens do Brotinho por mês. As condições completas, incluindo preços, cancelamento e reembolso, estão em <Link href="/reembolso">Assinatura e reembolso</Link>.</p>
+      <p>O Broto oferece três dias de teste com acesso completo a partir do cadastro e uma assinatura completa com até 40 análises e 150 mensagens do Brotinho por mês. As condições completas, incluindo preços, cancelamento e reembolso, estão em <Link href="/reembolso">Assinatura e reembolso</Link>.</p>
 
       <h3>Limite de uso justo</h3>
-      <p>As <strong>40 análises por mês</strong> valem para as análises do seu plano. <strong>Análises avulsas compradas ficam fora desse limite</strong> — você pode usá-las mesmo com o mês cheio. Acima disso, cada conta pode fazer no máximo <strong>50 análises por dia</strong>, contando tudo, e enviar no máximo <strong>150 mensagens por mês</strong> ao Brotinho, com no máximo <strong>30 por dia</strong>. Nenhum plano do Broto é ilimitado. O contador zera à meia-noite no horário UTC (21h em Brasília). O teto diário existe para proteger o serviço contra uso automatizado e contas compartilhadas — em uso normal ninguém chega perto dele. Análises que falham não contam para o limite.</p>
+      <p>As <strong>40 análises por mês</strong> valem para as análises do seu plano. Acima disso, cada conta pode fazer no máximo <strong>50 análises por dia</strong>, contando tudo, e enviar no máximo <strong>150 mensagens por mês</strong> ao Brotinho, com no máximo <strong>30 por dia</strong>. Nenhum plano do Broto é ilimitado. O contador zera à meia-noite no horário UTC (21h em Brasília). O teto diário existe para proteger o serviço contra uso automatizado e contas compartilhadas — em uso normal ninguém chega perto dele. Análises que falham não contam para o limite.</p>
 
       <h3>Quem vende a assinatura</h3>
       <p>As assinaturas são vendidas pela <strong>App Store</strong> ou pelo <strong>Google Play</strong>, conforme onde você baixou o app. São elas que cobram, emitem o comprovante e processam reembolsos. Estes Termos regulam o uso do Broto; a compra em si segue também as condições da loja em que foi feita.</p>

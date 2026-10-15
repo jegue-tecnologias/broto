@@ -19,9 +19,6 @@ export function Body() {
         <li>After that, adding plants, logging watering and receiving its reminder stays free, with no quantity limit.</li>
       </ul>
 
-      <h2>One-off analyses</h2>
-      <p>Once the trial is over, you can buy one-off analyses for <strong>R$ 1.90 each</strong>, without subscribing. They do not expire and there is no limit on how many you can buy.</p>
-
       <h2>Subscriptions</h2>
       <div className="table-wrap">
         <table>
@@ -32,7 +29,7 @@ export function Body() {
           </tbody>
         </table>
       </div>
-      <p>The complete subscription gives up to <strong>40 analyses a month</strong> and <strong>150 messages a month</strong> with Brotinho, without spending one-off credits. The limit of <strong>30 messages per day</strong> described in the <Link href="/en/terms">Terms of Use</Link> still applies.</p>
+      <p>The complete subscription gives up to <strong>40 analyses a month</strong> and <strong>150 messages a month</strong> with Brotinho. The limit of <strong>30 messages per day</strong> described in the <Link href="/en/terms">Terms of Use</Link> still applies.</p>
       <p>The subscription <strong>renews automatically</strong> through the App Store or Google Play until you cancel. Billing happens on your store account, and we have no access to your card details.</p>
 
       <h2>How to cancel</h2>

@@ -19,9 +19,6 @@ export function Body() {
         <li>Depois disso, cadastrar plantas, registrar que regou e receber o lembrete continua gratuito e sem limite de quantidade.</li>
       </ul>
 
-      <h2>Análise avulsa</h2>
-      <p>Terminado o teste, dá para comprar análise avulsa por <strong>R$ 1,90 cada</strong>, sem assinar nada. Elas não expiram e não há limite de quantas você pode comprar.</p>
-
       <h2>Assinaturas</h2>
       <div className="table-wrap">
         <table>
@@ -32,7 +29,7 @@ export function Body() {
           </tbody>
         </table>
       </div>
-      <p>A assinatura completa dá até <strong>40 análises por mês</strong> e <strong>150 mensagens por mês</strong> com o Brotinho, sem gastar os créditos avulsos. Continua valendo o limite de <strong>30 mensagens por dia</strong> descrito nos <Link href="/termos">Termos de Uso</Link>.</p>
+      <p>A assinatura completa dá até <strong>40 análises por mês</strong> e <strong>150 mensagens por mês</strong> com o Brotinho. Continua valendo o limite de <strong>30 mensagens por dia</strong> descrito nos <Link href="/termos">Termos de Uso</Link>.</p>
       <p>A assinatura é <strong>renovada automaticamente</strong> pela App Store ou pelo Google Play até que você cancele. A cobrança acontece na conta da loja, e nós não temos acesso aos dados do seu cartão.</p>
 
       <h2>Como cancelar</h2>

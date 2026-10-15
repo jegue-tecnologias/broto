@@ -215,16 +215,6 @@
         ]
       },
       {
-        "tag": "One-off",
-        "price": "R$ 1.90",
-        "per": "per analysis",
-        "items": [
-          "Never expires",
-          "No limit on how many you buy",
-          "No subscription"
-        ]
-      },
-      {
         "tag": "Complete",
         "price": "R$ 12.90",
         "per": "a month",

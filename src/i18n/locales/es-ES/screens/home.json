@@ -215,16 +215,6 @@
         ]
       },
       {
-        "tag": "Suelto",
-        "price": "R$ 1,90",
-        "per": "por análisis",
-        "items": [
-          "No caduca",
-          "Sin límite de cuántos compras",
-          "Sin suscripción"
-        ]
-      },
-      {
         "tag": "Completo",
         "price": "R$ 12,90",
         "per": "al mes",

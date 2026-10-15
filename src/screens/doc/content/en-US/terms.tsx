@@ -51,10 +51,10 @@ export function Body() {
       <p>Accounts that break these rules may be suspended or terminated.</p>
 
       <h2>Subscription</h2>
-      <p>Broto offers a three-day trial with full access from sign-up, paid one-off analyses and a complete subscription with up to 40 analyses and 150 Brotinho messages a month. The full conditions, including prices, cancellation and refunds, are in <Link href="/en/refund">Subscription and refunds</Link>.</p>
+      <p>Broto offers a three-day trial with full access from sign-up and a complete subscription with up to 40 analyses and 150 Brotinho messages a month. The full conditions, including prices, cancellation and refunds, are in <Link href="/en/refund">Subscription and refunds</Link>.</p>
 
       <h3>Fair use limit</h3>
-      <p>The <strong>40 analyses per month</strong> apply to the analyses included in your plan. <strong>One-off analyses you buy sit outside that limit</strong> — you can use them even when the month is full. On top of that, each account can run at most <strong>50 analyses per day</strong>, counting everything, and send at most <strong>150 messages per month</strong> to Brotinho, with a maximum of <strong>30 per day</strong>. No Broto plan is unlimited. The counter resets at midnight UTC. The daily ceiling exists to protect the service from automated use and shared accounts — normal use never comes close to it. Failed analyses do not count towards the limit.</p>
+      <p>The <strong>40 analyses per month</strong> apply to the analyses included in your plan. On top of that, each account can run at most <strong>50 analyses per day</strong>, counting everything, and send at most <strong>150 messages per month</strong> to Brotinho, with a maximum of <strong>30 per day</strong>. No Broto plan is unlimited. The counter resets at midnight UTC. The daily ceiling exists to protect the service from automated use and shared accounts — normal use never comes close to it. Failed analyses do not count towards the limit.</p>
 
       <h3>Who sells the subscription</h3>
       <p>Subscriptions are sold by the <strong>App Store</strong> or <strong>Google Play</strong>, depending on where you downloaded the app. They charge you, issue the receipt and process refunds. These Terms govern the use of Broto; the purchase itself also follows the terms of the store where it was made.</p>

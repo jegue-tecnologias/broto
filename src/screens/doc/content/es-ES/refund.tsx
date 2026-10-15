@@ -19,9 +19,6 @@ export function Body() {
         <li>Después, registrar plantas, anotar riegos y recibir su recordatorio sigue siendo gratuito y sin límite de cantidad.</li>
       </ul>
 
-      <h2>Análisis suelto</h2>
-      <p>Terminada la prueba, puedes comprar análisis sueltos por <strong>R$ 1,90 cada uno</strong>, sin suscribirte. No caducan y no hay límite de cuántos puedes comprar.</p>
-
       <h2>Suscripciones</h2>
       <div className="table-wrap">
         <table>
@@ -32,7 +29,7 @@ export function Body() {
           </tbody>
         </table>
       </div>
-      <p>La suscripción completa da hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> con Brotinho, sin gastar los créditos sueltos. Sigue aplicándose el límite de <strong>30 mensajes al día</strong> descrito en los <Link href="/es/terminos">Términos de Uso</Link>.</p>
+      <p>La suscripción completa da hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> con Brotinho. Sigue aplicándose el límite de <strong>30 mensajes al día</strong> descrito en los <Link href="/es/terminos">Términos de Uso</Link>.</p>
       <p>La suscripción se <strong>renueva automáticamente</strong> a través de la App Store o Google Play hasta que la canceles. El cobro se hace en tu cuenta de la tienda, y nosotros no tenemos acceso a los datos de tu tarjeta.</p>
 
       <h2>Cómo cancelar</h2>

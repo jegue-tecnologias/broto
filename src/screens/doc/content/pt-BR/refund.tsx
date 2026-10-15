@@ -16,7 +16,7 @@ export function Body() {
       <ul>
         <li><strong>3 para começar</strong> — a do mês mais 2 de boas-vindas, que são uma vez só e ficam guardadas até você usar — e <strong>1 por mês</strong> depois, renovada no dia 1º.</li>
         <li>Nos 3 primeiros dias depois do cadastro, tudo o que a assinatura completa tem é gratuito: análise, Brotinho e lembrete de todos os cuidados.</li>
-        <li>Depois disso, cadastrar plantas, registrar a rega e receber o lembrete dela continua gratuito e sem limite de quantidade.</li>
+        <li>Depois disso, cadastrar plantas, registrar que regou e receber o lembrete continua gratuito e sem limite de quantidade.</li>
       </ul>
 
       <h2>Análise avulsa</h2>

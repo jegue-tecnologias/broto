@@ -202,7 +202,7 @@
   "pricing": {
     "eyebrow": "Preços",
     "title": "Começa de graça",
-    "lede": "Nos 3 primeiros dias, tudo o que o completo tem é seu. Depois disso, cadastrar plantas, marcar que regou e receber o lembrete da rega continua sem custar nada.",
+    "lede": "Nos 3 primeiros dias, tudo o que o completo tem é seu. Depois disso, cadastrar plantas, marcar que regou e receber o lembrete continua sem custar nada.",
     "plans": [
       {
         "tag": "Grátis",
@@ -211,7 +211,7 @@
         "items": [
           "Análise e Brotinho liberados",
           "Lembrete de todos os cuidados",
-          "Depois, a rega segue de graça"
+          "Depois, o lembrete de regar segue de graça"
         ]
       },
       {

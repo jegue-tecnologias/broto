@@ -6,7 +6,7 @@ import { setPassword as savePassword, verifyToken } from "@/services/brotoApi";
 import { readAuthLink } from "@/utils/authLink";
 import { checkPassword, passwordValid } from "@/utils/password";
 
-export type ResetPhase = "checking" | "form" | "done" | "bad";
+export type ResetPhase = "checking" | "form" | "done" | "bad" | "offline";
 
 async function openSession() {
   const { token, error } = readAuthLink();
@@ -39,7 +39,10 @@ export function useResetPassword() {
         accessToken.current = session;
         setPhase("form");
       })
-      .catch(() => setPhase("bad"));
+      .catch((failure: unknown) => {
+        const code = failure instanceof Error ? failure.message : "";
+        setPhase(code === "sem_conexao" ? "offline" : "bad");
+      });
   }, []);
 
   useEffect(() => {

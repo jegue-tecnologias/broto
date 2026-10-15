@@ -3,7 +3,14 @@ import { API_URL } from "@/constants/api";
 type Session = { access_token?: string };
 
 async function call<Result>(path: string, init: RequestInit): Promise<Result> {
-  const response = await fetch(API_URL + path, init);
+  let response: Response;
+
+  try {
+    response = await fetch(API_URL + path, init);
+  } catch {
+    throw new Error("sem_conexao");
+  }
+
   const body = await response.json().catch(() => ({}));
 
   if (!response.ok) {

@@ -95,6 +95,10 @@ export function ResetScreen() {
         />
       )}
 
+      {phase === "offline" && (
+        <Bad title={t("offlineTitle")} body={t("offlineBody")} />
+      )}
+
       {phase === "bad" && <Bad title={t("badTitle")} body={t("badBody")} />}
     </AuthShell>
   );

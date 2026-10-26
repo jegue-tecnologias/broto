@@ -5,7 +5,7 @@ import { LockMock } from "./mock/LockMock";
 
 export function Reminders({ t }: { t: T }) {
   return (
-    <section>
+    <section id="lembretes">
       <div className="wrap split">
         <LockMock t={t} />
         <div>

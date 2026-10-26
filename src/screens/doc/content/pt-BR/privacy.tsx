@@ -40,7 +40,7 @@ export function Body() {
             <tr><td>Conversas com o Brotinho</td><td>Suas perguntas e as respostas do assistente. Enviamos ao provedor de IA junto com os dados da planta sobre a qual você perguntou.</td><td>Execução de contrato</td></tr>
             <tr><td>Buscas de espécie</td><td>O termo que você digita na busca é enviado ao provedor de IA para encontrar a espécie.</td><td>Execução de contrato</td></tr>
             <tr><td>Avaliação da análise</td><td>Quando você marca uma análise como útil ou não, guardamos a resposta para melhorar o serviço.</td><td>Legítimo interesse</td></tr>
-            <tr><td>Dados do dispositivo</td><td>Sistema operacional, versão do app, idioma e fuso horário — para entregar lembretes na hora certa e dar suporte.</td><td>Legítimo interesse</td></tr>
+            <tr><td>Dados do dispositivo</td><td>Sistema operacional, versão do aplicativo, idioma e fuso horário — para entregar lembretes na hora certa e dar suporte.</td><td>Legítimo interesse</td></tr>
             <tr><td>Status da assinatura</td><td>Saber se sua conta é gratuita ou Pro e quantas análises restam.</td><td>Execução de contrato</td></tr>
           </tbody>
         </table>
@@ -52,14 +52,14 @@ export function Body() {
       </div>
 
       <h2>Com quem compartilhamos</h2>
-      <p>Compartilhamos apenas o necessário para o app funcionar, com prestadores que atuam como operadores:</p>
+      <p>Compartilhamos apenas o necessário para o aplicativo funcionar, com prestadores que atuam como operadores:</p>
       <ul>
         <li><strong>Amazon Web Services</strong> — servidor, banco de dados e armazenamento das fotos.</li>
-        <li><strong>Cloudflare</strong> — entrega e proteção do tráfego entre o app e o servidor.</li>
+        <li><strong>Cloudflare</strong> — entrega e proteção do tráfego entre o aplicativo e o servidor.</li>
         <li><strong>Brevo</strong> — envio dos e-mails de confirmação de cadastro e de recuperação de senha.</li>
         <li><strong>DeepSeek</strong> — provedor de inteligência artificial. Recebe a foto para identificar a espécie e avaliar a saúde, as suas mensagens no Brotinho junto com os dados da planta em questão, e o termo digitado na busca. Tudo é enviado pelo nosso servidor, nunca direto do seu aparelho.</li>
         <li><strong>RevenueCat</strong> — controla o status da assinatura.</li>
-        <li><strong>PostHog</strong> — monitoramento de erros. Recebe apenas o relatório técnico de uma falha do app: mensagem do erro, tela em que aconteceu, modelo do aparelho e versão do sistema. Não recebe seu nome, seu e-mail nem suas fotos, e não usamos para acompanhar o que você faz no app.</li>
+        <li><strong>PostHog</strong> — monitoramento de erros. Recebe apenas o relatório técnico de uma falha do aplicativo: mensagem do erro, tela em que aconteceu, modelo do aparelho e versão do sistema. Não recebe seu nome, seu e-mail nem suas fotos, e não usamos para acompanhar o que você faz no aplicativo.</li>
         <li><strong>Apple e Google</strong> — processam o pagamento. Nós não recebemos nem armazenamos dados do seu cartão em momento algum.</li>
       </ul>
 
@@ -67,7 +67,7 @@ export function Body() {
       <p>Alguns desses prestadores processam dados fora do Brasil. A transferência acontece com base nas garantias previstas no art. 33 da LGPD e nos contratos firmados com cada um deles.</p>
 
       <h2>Por quanto tempo guardamos</h2>
-      <p>Seus dados ficam guardados enquanto sua conta existir. Ao excluir a conta pelo app, removemos plantas, fotos, histórico e lembretes dos nossos servidores em até <strong>30 dias</strong>.</p>
+      <p>Seus dados ficam guardados enquanto sua conta existir. Ao excluir a conta pelo aplicativo, removemos plantas, fotos, histórico e lembretes dos nossos servidores em até <strong>30 dias</strong>.</p>
       <p>Algumas coisas saem antes disso, sem você precisar pedir: conversas com o Brotinho sem uso por <strong>30 dias</strong> são apagadas, o histórico de lembretes entregues some em <strong>14 dias</strong>, e análises que você não salvou como planta somem em <strong>7 dias</strong>.</p>
       <p>Registros que a lei nos obriga a manter — como os de acesso à aplicação, pelo prazo do Marco Civil da Internet — são preservados mesmo após a exclusão, de forma isolada.</p>
 
@@ -80,14 +80,14 @@ export function Body() {
         <li>solicitar a portabilidade dos seus dados;</li>
         <li>saber com quem compartilhamos seus dados.</li>
       </ul>
-      <p>A portabilidade não depende de pedido: no app, em <strong>Perfil › Exportar meus dados</strong>, você baixa na hora um arquivo JSON com plantas, tarefas, histórico de cuidados, análises, conversas com o Brotinho, lembretes recebidos e links para as suas fotos.</p>
+      <p>A portabilidade não depende de pedido: no aplicativo, em <strong>Perfil › Exportar meus dados</strong>, você baixa na hora um arquivo JSON com plantas, tarefas, histórico de cuidados, análises, conversas com o Brotinho, lembretes recebidos e links para as suas fotos.</p>
       <p>A exclusão de conta e de dados está descrita em <Link href="/exclusao">Excluir conta e dados</Link>. Para os demais pedidos, escreva para <a href="mailto:falecombroto@gmail.com">falecombroto@gmail.com</a> — respondemos em até 15 dias.</p>
 
       <h2>Crianças e adolescentes</h2>
       <p>O Broto não é direcionado a menores de 13 anos e não coletamos dados dessa faixa conscientemente. Não perguntamos a idade no cadastro, então não temos como descobrir isso sozinhos. Se você é responsável por um menor de 13 anos com conta no Broto, escreva para <a href="mailto:falecombroto@gmail.com">falecombroto@gmail.com</a>: apagamos a conta e os dados dela.</p>
 
       <h2>Mudanças nesta política</h2>
-      <p>Quando alterarmos algo relevante, avisamos dentro do app antes da mudança entrar em vigor. A data de vigência no topo desta página sempre indica a versão atual.</p>
+      <p>Quando alterarmos algo relevante, avisamos dentro do aplicativo antes da mudança entrar em vigor. A data de vigência no topo desta página sempre indica a versão atual.</p>
     </>
   );
 }

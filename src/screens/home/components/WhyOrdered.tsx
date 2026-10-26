@@ -5,7 +5,7 @@ import { ConfirmCard } from "./mock/AppMock";
 
 export function WhyOrdered({ t }: { t: T }) {
   return (
-    <section>
+    <section id="diagnostico">
       <div className="wrap split">
         <div>
           <p className="eyebrow">{t("why.eyebrow")}</p>

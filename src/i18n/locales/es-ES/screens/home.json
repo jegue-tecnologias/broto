@@ -9,7 +9,8 @@
     "title": "Una foto, y sabes qué le pasa a tu planta",
     "lede": "Fotografía la planta. Broto devuelve la especie, sus cuidados y, cuando algo va mal, las causas probables en orden — con una prueba que haces en casa para saber cuál es.",
     "soon": "Muy pronto en la App Store y en Google Play",
-    "note": "3 días con todo desbloqueado, sin ningún cobro."
+    "note": "3 días con todo desbloqueado, sin ningún cobro.",
+    "cta": "Ver cómo funciona"
   },
   "mock": {
     "speciesLabel": "Especie",
@@ -81,15 +82,37 @@
         "label": "Abono",
         "value": "Mensual",
         "note": "Solo en primavera y verano."
+      },
+      {
+        "label": "Temperatura",
+        "value": "18 a 30 °C",
+        "note": "Evita las corrientes de aire frío."
       }
     ],
     "toxicTitle": "Tóxica para mascotas",
-    "toxicText": "Mantenla lejos de perros y gatos. Esto no sustituye la orientación de un veterinario."
+    "toxicText": "Mantenla lejos de perros y gatos. Esto no sustituye la orientación de un veterinario.",
+    "feedbackTitle": "¿Te ayudó este resultado?",
+    "feedbackYes": "Sirvió",
+    "feedbackNo": "No sirvió",
+    "reportLead": "¿Algo mal o que falta?",
+    "reportHint": "Cuéntanos y corregimos el análisis.",
+    "reportAction": "Avisar",
+    "growTitle": "Cómo cultivarla",
+    "grow": "Crece en ramas largas. Puedes guiarla por un tutor o dejarla caer de un estante. Corta justo encima de un nudo para que engorde.",
+    "loreTitle": "Qué simboliza",
+    "lore": "Conocida como planta del dinero. En muchas casas es regalo de mudanza, por su fama de arraigar en cualquier rincón.",
+    "save": "Guardar planta",
+    "feedbackHint": "Tu respuesta afina los próximos análisis.",
+    "markHint": "Toca para ampliar",
+    "askTitle": "Preguntar a Brotinho",
+    "askPlaceholder": "Escribe aquí",
+    "time": "9:41",
+    "close": "Cerrar",
+    "saveImage": "Descargar imagen"
   },
   "how": {
-    "eyebrow": "Cómo funciona",
-    "title": "Tres toques y ya está",
-    "lede": "Sin formulario, sin cuestionario, sin “cuál es tu nivel de experiencia”.",
+    "eyebrow": "Paso a paso",
+    "title": "Fotografía, descubre, registra",
     "steps": [
       {
         "n": "01",
@@ -99,20 +122,60 @@
       {
         "n": "02",
         "title": "Descubre",
-        "text": "Especie, cuidados y, si algo va mal, las causas probables en orden. Una foto, una respuesta."
+        "text": "Especie, cuidados y, si algo va mal, las causas probables en orden."
       },
       {
         "n": "03",
         "title": "Guárdala",
         "text": "La planta entra en tu lista con riego, luz y abono ya rellenados. El recordatorio llega solo."
       }
-    ]
+    ],
+    "pageTitle": "De la foto a la rutina, en tres toques",
+    "pageLede": "Cada etapa con la pantalla de la aplicación al lado, para que veas cómo es antes de descargar.",
+    "metaTitle": "Cómo funciona · Broto",
+    "metaDescription": "De la foto al recordatorio: identificación de la especie, causas probables en orden, una prueba para hacer en casa, rutina de cuidado y Brotinho para las dudas.",
+    "index": [
+      "El análisis",
+      "El diagnóstico",
+      "Los recordatorios",
+      "Brotinho"
+    ],
+    "indexAria": "Secciones de esta página",
+    "pageEyebrow": "Cómo funciona"
   },
   "camera": {
     "hintTitle": "Encuadra la planta entera",
-    "hintText": "Maceta y hojas en la foto.<br/>Es lo que muestra la especie.",
+    "hintText": "Maceta y hojas en el cuadro.<br/>Es lo que muestra la especie.",
     "gallery": "Galería",
-    "shutter": "Hacer foto"
+    "shutter": "Hacer foto",
+    "analyze": "Analizar",
+    "tips": "Consejos",
+    "left1": "Puedes sumar 1 foto más",
+    "left2": "Puedes sumar 2 fotos más",
+    "full": "Toca la X de una foto para cambiarla",
+    "flash": "Flash",
+    "close": "Cerrar",
+    "help": "Ayuda",
+    "hintLine1": "Maceta y hojas en el cuadro.",
+    "hintLine2": "Es lo que muestra la especie.",
+    "tipsTitle": "Cómo hacer la foto",
+    "tipsSubtitle": "Tres cosas que cambian el resultado.",
+    "tipsAction": "Entendido",
+    "tipsExtra": "Si hay una hoja manchada o un bicho, deja esa parte bien visible en el cuadro.",
+    "tipsItems": [
+      {
+        "title": "La planta entera en el cuadro",
+        "text": "Un primer plano de una hoja casi nunca identifica la especie."
+      },
+      {
+        "title": "Buena luz y pulso firme",
+        "text": "La foto oscura o movida es la que más falla en la lectura."
+      },
+      {
+        "title": "Una planta por foto",
+        "text": "Con dos en el cuadro, la respuesta puede ser sobre la que no querías."
+      }
+    ]
   },
   "plants": {
     "title": "Mis plantas",
@@ -138,6 +201,71 @@
       {
         "name": "Zamioculca",
         "when": "Regar en 9 días"
+      }
+    ],
+    "summaryTitle": "3 cuidados para hoy",
+    "summaryDetail": "Regar, girar la maceta y abonar",
+    "sectionTitle": "Plantas",
+    "bell": "Avisos",
+    "tasksMonth": "Agosto",
+    "days": [
+      {
+        "weekday": "lun",
+        "number": "24"
+      },
+      {
+        "weekday": "mar",
+        "number": "25"
+      },
+      {
+        "weekday": "mié",
+        "number": "26"
+      },
+      {
+        "weekday": "jue",
+        "number": "27"
+      },
+      {
+        "weekday": "vie",
+        "number": "28"
+      },
+      {
+        "weekday": "sáb",
+        "number": "29"
+      },
+      {
+        "weekday": "dom",
+        "number": "30"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Potus",
+        "place": "Salón",
+        "tasks": [
+          "Regar",
+          "Girar la maceta"
+        ]
+      },
+      {
+        "name": "Espada de san Jorge",
+        "place": "Dormitorio",
+        "tasks": [
+          "Abonar"
+        ]
+      }
+    ],
+    "analysesNote": "Análisis de los últimos 7 días.",
+    "analyses": [
+      {
+        "species": "Potus",
+        "health": "Atención",
+        "when": "Hoy"
+      },
+      {
+        "species": "Costilla de Adán",
+        "health": "Sana",
+        "when": "Hace 3 días"
       }
     ]
   },
@@ -167,7 +295,19 @@
     "text": "Ya conoce tus plantas. Pregunta directo, sin explicar otra vez cuál es la especie ni cuándo la regaste.",
     "ask": "¿Puedo dejar el potos en el baño?",
     "answer": "Puedes. Le gusta la humedad, pero necesita luz indirecta — si el baño no tiene ventana, se estira y pierde hojas.",
-    "field": "Escribe tu pregunta"
+    "field": "Escribe aquí",
+    "listening": "Escuchando",
+    "header": "Brotinho",
+    "subtitle": "Resuelve dudas sobre tus plantas",
+    "greeting": "Buenas tardes. ¿Cómo puedo ayudarte?",
+    "back": "Volver",
+    "menu": "Más opciones",
+    "gallery": "Elegir de la galería",
+    "camera": "Hacer una foto",
+    "mic": "Hablar",
+    "cancel": "Cancelar el audio",
+    "ask2": "¿Y las hojas amarillas de abajo?",
+    "answer2": "Que una hoja de abajo amarillee de vez en cuando es normal. Si son varias a la vez, suele ser exceso de agua: mete el dedo en la tierra antes de regar."
   },
   "nots": {
     "eyebrow": "Confianza",
@@ -237,5 +377,92 @@
     "title": "Tu planta está intentando decirte algo",
     "text": "Haz la foto y descubre qué. ¿Dudas antes de descargar? La <help>Ayuda</help> responde las más comunes.",
     "soon": "Muy pronto en la App Store y en Google Play"
+  },
+  "origin": {
+    "eyebrow": "La idea",
+    "title": "Nació de una necesidad que ninguna app atendía",
+    "paragraphs": [
+      "Las apps de plantas saben decir el nombre. Apuntas la cámara, aparece Epipremnum aureum, y ahí termina. Pero nadie mira una hoja amarilla queriendo el nombre en latín: quiere saber qué hacer.",
+      "Y estaba la otra mitad del problema: el precio. Las apps que hacen algo más que decir el nombre cobran como herramienta profesional, y se lo cobran a quien tiene tres macetas en casa. Por eso Broto empieza gratis y sigue siendo útil gratis: registrar plantas, marcar que regaste y recibir el recordatorio no cuestan nada.",
+      "La pregunta de verdad es otra: ¿por qué amarilleó esa hoja? Y no tiene una sola respuesta. Puede ser exceso de agua, falta de agua, sol directo, o que la planta solo esté soltando las hojas viejas. Cada una pide algo distinto de ti, y hacer la equivocada cuesta la planta.",
+      "Broto nació para responder esa pregunta. Parte de la foto, dice la especie porque eso importa para todo lo demás, y entonces va donde los otros paran: enumera las causas probables en orden, explica qué vio en cada una y te da una prueba para hacer en casa, con la mano en la tierra, para saber cuál es la tuya."
+    ],
+    "quote": "Una planta no habla. Pero da señales, y se aprende a leerlas."
+  },
+  "who": {
+    "eyebrow": "Para quién es",
+    "title": "Para quien le gustan las plantas y no quiere memorizar un manual",
+    "lede": "No necesitas saber nada de jardinería. Necesitas una planta y un móvil.",
+    "items": [
+      {
+        "title": "Es tu primera planta",
+        "text": "Llegó a casa con una maceta y ninguna instrucción. Broto dice qué especie es, cuánta agua y cuánta luz necesita, y avisa cuando llega el momento de hacer algo."
+      },
+      {
+        "title": "Ya has perdido plantas",
+        "text": "Casi siempre es el agua: de más o de menos, y los dos ponen la hoja amarilla. Broto te dice cuál de los dos es tu caso mientras todavía se puede corregir."
+      },
+      {
+        "title": "Tienes muchas macetas",
+        "text": "Diez, quince plantas, cada una con su ritmo. Broto guarda la rutina de cada una y te avisa el día, sin que tengas que acordarte de nada."
+      }
+    ],
+    "note": "Sirve para la planta del salón, del balcón y del patio — de la suculenta al limonero."
+  },
+  "download": {
+    "eyebrow": "Descargar",
+    "title": "Falta poco para llevarte Broto a casa",
+    "text": "Los 3 primeros días son completos, sin cobro y sin tarjeta. Después decides si sigues.",
+    "soon": "Muy pronto",
+    "apple": "App Store",
+    "google": "Google Play",
+    "help": "¿Dudas antes de descargar? La Ayuda responde las más comunes.",
+    "helpLink": "Ver la Ayuda",
+    "soonApple": "Pronto en",
+    "soonGoogle": "Pronto en"
+  },
+  "teaser": {
+    "eyebrow": "Cómo funciona",
+    "title": "De la foto al recordatorio, en tres toques",
+    "text": "Mira la pantalla de cada etapa: la foto, las causas en orden, la prueba que haces en casa y el recordatorio que llega el día justo.",
+    "action": "Ver cómo funciona"
+  },
+  "proof": {
+    "items": [
+      "Dice la causa, no solo el nombre",
+      "Sin anuncios",
+      "3 días completos, sin tarjeta",
+      "Un recordatorio por planta, a tu hora"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Dudas",
+    "title": "Lo que preguntan antes de descargar",
+    "items": [
+      {
+        "q": "¿Tengo que pagar para probar?",
+        "a": "No. Los 3 primeros días tienen todo lo del plan completo, sin cobro y sin pedir tarjeta. Después eliges si te suscribes o sigues en el gratuito."
+      },
+      {
+        "q": "¿Funciona sin internet?",
+        "a": "El análisis de la foto necesita internet, porque es lo que lee la imagen. Tu lista de plantas, la rutina y los recordatorios siguen funcionando sin conexión."
+      },
+      {
+        "q": "¿Acierta siempre la especie?",
+        "a": "No, y no finge que sí. Cuando la foto no es clara, Broto lo dice en vez de inventar un nombre, y tú puedes corregir la especie a mano."
+      },
+      {
+        "q": "¿Me va a notificar todo el rato?",
+        "a": "Un recordatorio por planta, a la hora que elijas para cada tarea. Se puede apagar tarea por tarea, y nada llega de madrugada."
+      },
+      {
+        "q": "¿Puedo borrar mis datos?",
+        "a": "Sí, desde la propia app, y la cuenta se va con ellos. También puedes exportar todo en un archivo antes, si quieres guardarlo."
+      },
+      {
+        "q": "¿Sirve para huerta o cultivo?",
+        "a": "Sirve. Lee cualquier planta que fotografíes, huerta y frutales incluidos, y habla de cultivo y sanidad. Dos cosas no hace nunca: decir si se puede comer lo que la planta produce y dar dosis de fitosanitarios — ahí indica la categoría y manda seguir la etiqueta."
+      }
+    ]
   }
 }

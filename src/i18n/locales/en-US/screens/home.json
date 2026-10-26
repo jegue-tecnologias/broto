@@ -9,7 +9,8 @@
     "title": "One photo, and you know what your plant has",
     "lede": "Take a picture of the plant. Broto gives you the species, how to care for it and, when something is wrong, the likely causes in order — with a test you can run at home to tell which one it is.",
     "soon": "Coming soon to the App Store and Google Play",
-    "note": "3 days with everything unlocked, no charge at all."
+    "note": "3 days with everything unlocked, no charge at all.",
+    "cta": "See how it works"
   },
   "mock": {
     "speciesLabel": "Species",
@@ -81,15 +82,37 @@
         "label": "Fertilizer",
         "value": "Monthly",
         "note": "Spring and summer only."
+      },
+      {
+        "label": "Temperature",
+        "value": "18 to 30 °C",
+        "note": "Keep it away from cold draughts."
       }
     ],
     "toxicTitle": "Toxic to pets",
-    "toxicText": "Keep it away from cats and dogs. This does not replace a vet."
+    "toxicText": "Keep it away from cats and dogs. This does not replace a vet.",
+    "feedbackTitle": "Did this result help?",
+    "feedbackYes": "It helped",
+    "feedbackNo": "It did not help",
+    "reportLead": "Something wrong or missing?",
+    "reportHint": "Tell us and we will fix the analysis.",
+    "reportAction": "Report",
+    "growTitle": "How to grow it",
+    "grow": "It grows in long vines. Train it up a stake or let it trail from a shelf. Cut just above a node to make it fuller.",
+    "loreTitle": "What it stands for",
+    "lore": "Known as the money plant. In many homes it is a housewarming gift, for its reputation of taking root anywhere.",
+    "save": "Save plant",
+    "feedbackHint": "Your answer tunes the next analyses.",
+    "markHint": "Tap to zoom",
+    "askTitle": "Ask Brotinho",
+    "askPlaceholder": "Type here",
+    "time": "9:41",
+    "close": "Close",
+    "saveImage": "Download image"
   },
   "how": {
-    "eyebrow": "How it works",
-    "title": "Three taps and you are done",
-    "lede": "No form, no questionnaire, no “what is your experience level”.",
+    "eyebrow": "Step by step",
+    "title": "Photograph, find out, save",
     "steps": [
       {
         "n": "01",
@@ -99,20 +122,60 @@
       {
         "n": "02",
         "title": "Find out",
-        "text": "Species, care, and if something is wrong, the likely causes in order. One photo, one answer."
+        "text": "Species, care, and if something is wrong, the likely causes in order."
       },
       {
         "n": "03",
         "title": "Save it",
         "text": "The plant joins your list with watering, light and feeding already filled in. The reminder comes on its own."
       }
-    ]
+    ],
+    "pageTitle": "From photo to routine, in three taps",
+    "pageLede": "Every step with the app screen beside it, so you can see how it works before downloading.",
+    "metaTitle": "How it works · Broto",
+    "metaDescription": "From the photo to the reminder: species identification, likely causes in order, a test to run at home, a care routine and Brotinho for the questions.",
+    "index": [
+      "The analysis",
+      "The diagnosis",
+      "The reminders",
+      "Brotinho"
+    ],
+    "indexAria": "Sections on this page",
+    "pageEyebrow": "How it works"
   },
   "camera": {
     "hintTitle": "Frame the whole plant",
-    "hintText": "Pot and leaves in the shot.<br/>That is what shows the species.",
+    "hintText": "Pot and leaves in frame.<br/>That is what shows the species.",
     "gallery": "Gallery",
-    "shutter": "Take photo"
+    "shutter": "Take photo",
+    "analyze": "Analyse",
+    "tips": "Tips",
+    "left1": "You can add 1 more photo",
+    "left2": "You can add 2 more photos",
+    "full": "Tap the X on a photo to swap it",
+    "flash": "Flash",
+    "close": "Close",
+    "help": "Help",
+    "hintLine1": "Pot and leaves in frame.",
+    "hintLine2": "That is what shows the species.",
+    "tipsTitle": "How to take the photo",
+    "tipsSubtitle": "Three things that change the result.",
+    "tipsAction": "Got it",
+    "tipsExtra": "If there is a spotted leaf or a pest, keep that part clearly in frame.",
+    "tipsItems": [
+      {
+        "title": "The whole plant in frame",
+        "text": "A close-up of one leaf almost never identifies the species."
+      },
+      {
+        "title": "Good light, steady hand",
+        "text": "A dark or blurred photo is what fails the reading most."
+      },
+      {
+        "title": "One plant per photo",
+        "text": "With two in frame, the answer may be about the one you did not mean."
+      }
+    ]
   },
   "plants": {
     "title": "My plants",
@@ -138,6 +201,71 @@
       {
         "name": "ZZ plant",
         "when": "Water in 9 days"
+      }
+    ],
+    "summaryTitle": "3 care tasks today",
+    "summaryDetail": "Water, turn the pot and feed",
+    "sectionTitle": "Plants",
+    "bell": "Alerts",
+    "tasksMonth": "August",
+    "days": [
+      {
+        "weekday": "mon",
+        "number": "24"
+      },
+      {
+        "weekday": "tue",
+        "number": "25"
+      },
+      {
+        "weekday": "wed",
+        "number": "26"
+      },
+      {
+        "weekday": "thu",
+        "number": "27"
+      },
+      {
+        "weekday": "fri",
+        "number": "28"
+      },
+      {
+        "weekday": "sat",
+        "number": "29"
+      },
+      {
+        "weekday": "sun",
+        "number": "30"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Pothos",
+        "place": "Living room",
+        "tasks": [
+          "Water",
+          "Turn the pot"
+        ]
+      },
+      {
+        "name": "Snake plant",
+        "place": "Bedroom",
+        "tasks": [
+          "Feed"
+        ]
+      }
+    ],
+    "analysesNote": "Analyses from the last 7 days.",
+    "analyses": [
+      {
+        "species": "Pothos",
+        "health": "Needs care",
+        "when": "Today"
+      },
+      {
+        "species": "Monstera",
+        "health": "Healthy",
+        "when": "3 days ago"
       }
     ]
   },
@@ -167,7 +295,19 @@
     "text": "It already knows your plants. Just ask, without explaining again which species it is and when you watered it.",
     "ask": "Can I keep the pothos in the bathroom?",
     "answer": "You can. It likes the humidity, but it needs indirect light — if the bathroom has no window it will stretch out and drop leaves.",
-    "field": "Write your question"
+    "field": "Write here",
+    "listening": "Listening",
+    "header": "Brotinho",
+    "subtitle": "Answers questions about your plants",
+    "greeting": "Good afternoon. How can I help you?",
+    "back": "Back",
+    "menu": "More options",
+    "gallery": "Choose from the gallery",
+    "camera": "Take a photo",
+    "mic": "Speak",
+    "cancel": "Cancel the recording",
+    "ask2": "What about the yellow leaves at the bottom?",
+    "answer2": "The odd bottom leaf going yellow is normal. Several at once usually means too much water — put a finger in the soil before you water again."
   },
   "nots": {
     "eyebrow": "Trust",
@@ -237,5 +377,92 @@
     "title": "Your plant is trying to tell you something",
     "text": "Take the photo and find out what. Questions before downloading? <help>Help</help> answers the common ones.",
     "soon": "Coming soon to the App Store and Google Play"
+  },
+  "origin": {
+    "eyebrow": "The idea",
+    "title": "It came from a need no app was meeting",
+    "paragraphs": [
+      "Plant apps can tell you the name. You point the camera, Epipremnum aureum shows up, and that is the end of it. But nobody looks at a yellow leaf wanting the Latin name. They want to know what to do.",
+      "And there was the other half of the problem: the price. The apps that do more than name the plant charge like professional tools, and they charge the person with three pots on a shelf. That is why Broto starts free and stays useful for free — adding plants, marking that you watered and getting the reminder cost nothing.",
+      "The real question is another one: why did this leaf turn yellow? And it has no single answer. It can be too much water, too little water, direct sun, or the plant simply dropping its old leaves. Each one asks something different from you, and doing the wrong one costs the plant.",
+      "Broto was born to answer that question. It starts from the photo, names the species because that matters for everything after it, and then goes where the others stop: it lists the likely causes in order, explains what it saw in each one, and gives you a test to run at home, hands in the soil, to find out which one is yours."
+    ],
+    "quote": "A plant cannot talk. But it signals, and that can be learned."
+  },
+  "who": {
+    "eyebrow": "Who it is for",
+    "title": "For people who like plants and will not memorise a manual",
+    "lede": "You do not need to know anything about gardening. You need a plant and a phone.",
+    "items": [
+      {
+        "title": "It is your first plant",
+        "text": "It came home with a pot and no instructions at all. Broto names the species, says how much water and how much light it needs, and tells you when it is time to do something."
+      },
+      {
+        "title": "You have lost plants before",
+        "text": "It is almost always water: too much or too little, and both turn the leaf yellow. Broto tells you which one is yours while there is still time to fix it."
+      },
+      {
+        "title": "You have a lot of pots",
+        "text": "Ten, fifteen plants, each on its own rhythm. Broto keeps the routine of every one of them and warns you on the day, so you do not have to remember a thing."
+      }
+    ],
+    "note": "It works for the plant on the shelf, on the balcony and in the yard — from a succulent to a lemon tree."
+  },
+  "download": {
+    "eyebrow": "Download",
+    "title": "Almost time to take Broto home",
+    "text": "The first 3 days are the complete plan, no charge and no card. After that you decide whether to carry on.",
+    "soon": "Coming soon",
+    "apple": "App Store",
+    "google": "Google Play",
+    "help": "A question before downloading? Help answers the common ones.",
+    "helpLink": "Open Help",
+    "soonApple": "Coming soon to",
+    "soonGoogle": "Coming soon to"
+  },
+  "teaser": {
+    "eyebrow": "How it works",
+    "title": "From the photo to the reminder, in three taps",
+    "text": "See the screen for every step: the photo, the causes in order, the test you run at home and the reminder that arrives on the day.",
+    "action": "See how it works"
+  },
+  "proof": {
+    "items": [
+      "Tells the cause, not just the name",
+      "No ads",
+      "3 full days, no card",
+      "One reminder per plant, at your time"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "What people ask before downloading",
+    "items": [
+      {
+        "q": "Do I have to pay to try it?",
+        "a": "No. The first 3 days have everything the complete plan has, no charge and no card asked. After that you choose whether to subscribe or stay on the free tier."
+      },
+      {
+        "q": "Does it work offline?",
+        "a": "Analysing a photo needs the internet, because that is what reads the image. Your plant list, the routine and the reminders keep working offline."
+      },
+      {
+        "q": "Does it always get the species right?",
+        "a": "No, and it does not pretend otherwise. When the photo is not clear enough, Broto says so instead of inventing a name, and you can correct the species by hand."
+      },
+      {
+        "q": "Will it notify me all the time?",
+        "a": "One reminder per plant, at the time you choose for each task. You can switch tasks off one by one, and nothing arrives in the middle of the night."
+      },
+      {
+        "q": "Can I delete my data?",
+        "a": "You can, from the app itself, and the account goes with it. You can also export everything to a file first if you want to keep it."
+      },
+      {
+        "q": "Is it for a vegetable garden or a farm?",
+        "a": "It does. It reads any plant you photograph, vegetable beds and fruit trees included, and talks about growing and plant health. Two things it never does: say whether what the plant produces is edible, and give pesticide dosages — there it names the category and tells you to follow the label."
+      }
+    ]
   }
 }

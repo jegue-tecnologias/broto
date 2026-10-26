@@ -1,4 +1,14 @@
-import { Drop, Info, Paw, PlantMark, Sprout, Sun } from "@/components/Icons";
+import {
+  Drop,
+  Flag,
+  Info,
+  Paw,
+  PlantMark,
+  Sprout,
+  Sun,
+  ThumbDown,
+  ThumbUp,
+} from "@/components/Icons";
 import { list, type T } from "@/i18n";
 
 type Cause = { cause: string; blocks: { label: string; body: string }[] };
@@ -31,16 +41,17 @@ export function AppMock({ t, variant = "full" }: AppMockProps) {
             <Info />
             <span>{t("mock.status")}</span>
           </div>
-          {full && (
-            <div className="app-strip">
-              {list<string>(t, "mock.strip").map((label, i) => (
-                <span key={label} className={i === 0 ? "is-on" : undefined}>
-                  {label}
-                </span>
-              ))}
-            </div>
-          )}
         </div>
+
+        {full && (
+          <div className="app-strip">
+            {list<string>(t, "mock.strip").map((label, i) => (
+              <span key={label} className={i === 0 ? "is-on" : undefined}>
+                {label}
+              </span>
+            ))}
+          </div>
+        )}
 
         <div className="app-section">
           <div className="app-pad">
@@ -108,6 +119,35 @@ export function AppMock({ t, variant = "full" }: AppMockProps) {
                   <p className="app-toxic-title">{t("mock.toxicTitle")}</p>
                   <p className="app-toxic-text">{t("mock.toxicText")}</p>
                 </div>
+              </div>
+            </div>
+
+            <div className="app-pad">
+              <div className="app-feedback">
+                <p className="app-title">{t("mock.feedbackTitle")}</p>
+                <div className="app-thumbs">
+                  <span className="app-thumb is-on">
+                    <ThumbUp />
+                    {t("mock.feedbackYes")}
+                  </span>
+                  <span className="app-thumb">
+                    <ThumbDown />
+                    {t("mock.feedbackNo")}
+                  </span>
+                </div>
+              </div>
+
+              <div className="app-report">
+                <span className="app-report-icon">
+                  <Flag />
+                </span>
+                <div className="app-report-texts">
+                  <p className="app-label">{t("mock.reportLead")}</p>
+                  <p className="app-report-hint">{t("mock.reportHint")}</p>
+                </div>
+                <span className="app-report-action">
+                  {t("mock.reportAction")}
+                </span>
               </div>
             </div>
           </>

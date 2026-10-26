@@ -12,10 +12,10 @@ export function Body() {
       <p className="intro">As dúvidas que mais aparecem. Se a sua não estiver aqui, escreva para <a href="mailto:falecombroto@gmail.com">falecombroto@gmail.com</a>.</p>
 
       <h2>Como funciona a análise</h2>
-      <p>Você fotografa a planta e pronto — o app não pergunta nada antes. A foto vai para um modelo de visão que devolve a espécie, os cuidados dela, e, quando há algo errado, uma lista ranqueada de causas prováveis com um teste que você faz em casa para descobrir qual é.</p>
+      <p>Você fotografa a planta e pronto — o aplicativo não pergunta nada antes. A foto vai para um modelo de visão que devolve a espécie, os cuidados dela, e, quando há algo errado, uma lista ranqueada de causas prováveis com um teste que você faz em casa para descobrir qual é.</p>
 
       <h3>Por que não vem uma causa só?</h3>
-      <p>Porque a mesma folha amarela significa coisas opostas dependendo do contexto: regada ontem e amarelando é excesso de água; duas semanas sem água e amarelando é o contrário. Em vez de encher você de perguntas antes, o app mostra as causas em ordem de probabilidade e explica como separar uma da outra.</p>
+      <p>Porque a mesma folha amarela significa coisas opostas dependendo do contexto: regada ontem e amarelando é excesso de água; duas semanas sem água e amarelando é o contrário. Em vez de encher você de perguntas antes, o aplicativo mostra as causas em ordem de probabilidade e explica como separar uma da outra.</p>
 
       <h3>O que é o “Como confirmar”?</h3>
       <p>O teste que desempata. Por exemplo: enfie o dedo três centímetros na terra — se sair úmido, é excesso de água, não é fungo. Às vezes ele pede para virar uma folha e olhar embaixo, que é onde moram cochonilha e ácaro.</p>
@@ -62,7 +62,7 @@ export function Body() {
       <p>Na tela de entrar com e-mail, toque em “Esqueci minha senha”. O link de redefinição chega no seu e-mail.</p>
 
       <h2>Falar com a gente</h2>
-      <p>Escreva para <a href="mailto:falecombroto@gmail.com">falecombroto@gmail.com</a>. Respondemos em até 3 dias úteis. Se for um problema técnico, mande junto a versão do app e o modelo do aparelho — o botão “Ajuda e contato” dentro do app já preenche isso para você.</p>
+      <p>Escreva para <a href="mailto:falecombroto@gmail.com">falecombroto@gmail.com</a>. Respondemos em até 3 dias úteis. Se for um problema técnico, mande junto a versão do aplicativo e o modelo do aparelho — o botão “Ajuda e contato” dentro do aplicativo já preenche isso para você.</p>
     </>
   );
 }

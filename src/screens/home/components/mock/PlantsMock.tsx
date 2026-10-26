@@ -1,4 +1,4 @@
-import { ChevronRight, Plus, Sprout } from "@/components/Icons";
+import { Bell, ChevronRight, Drop, Sprout } from "@/components/Icons";
 import { list, type T } from "@/i18n";
 
 const DOTS = ["dot-today", "dot-soon", "dot-far", "dot-far"];
@@ -9,12 +9,12 @@ export function PlantsMock({ t }: { t: T }) {
   return (
     <div className="app-plants">
       <div className="pl-top">
-        <div>
+        <div className="pl-title-group">
           <p className="pl-title">{t("plants.title")}</p>
           <p className="pl-count">{t("plants.count")}</p>
         </div>
-        <span className="pl-circle">
-          <Plus />
+        <span className="pl-bell" aria-label={t("plants.bell")}>
+          <Bell />
         </span>
       </div>
 
@@ -25,6 +25,21 @@ export function PlantsMock({ t }: { t: T }) {
           </span>
         ))}
       </div>
+
+      <div className="pl-summary">
+        <span className="pl-summary-icon">
+          <Drop />
+        </span>
+        <div className="pl-summary-texts">
+          <p className="pl-summary-title">{t("plants.summaryTitle")}</p>
+          <p className="pl-summary-detail">{t("plants.summaryDetail")}</p>
+        </div>
+        <span className="pl-summary-go">
+          <ChevronRight />
+        </span>
+      </div>
+
+      <p className="pl-section">{t("plants.sectionTitle")}</p>
 
       <div className="pl-list">
         {items.map((item, i) => (
@@ -39,9 +54,6 @@ export function PlantsMock({ t }: { t: T }) {
                 <span>{item.when}</span>
               </p>
             </div>
-            <span className="pl-chevron">
-              <ChevronRight />
-            </span>
           </div>
         ))}
       </div>

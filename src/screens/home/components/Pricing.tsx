@@ -1,6 +1,6 @@
 import { Link } from "@/components/Link";
 
-import { Info } from "@/components/Icons";
+import { Check, Info } from "@/components/Icons";
 import { Rich } from "@/components/Rich";
 import type { Lang } from "@/constants/languages";
 import { ANCHORS, DOC_PATHS } from "@/constants/routes";
@@ -27,14 +27,31 @@ export function Pricing({ t, lang }: { t: T; lang: Lang }) {
         </div>
 
         <div className="plans">
-          {plans.map((plan, i) => (
-            <div key={String(plan.tag)} className={plan.year ? "plan is-lead" : "plan"}>
+          {plans.map((plan, i) => {
+            const parts = plan.price.split(" ");
+            const cur = parts.length > 1 ? parts[0] : "";
+            const value = parts.length > 1 ? parts.slice(1).join(" ") : plan.price;
+
+            return (
+            <div
+              key={String(plan.tag)}
+              className={plan.year ? "plan is-lead" : "plan"}
+              style={{ ["--i" as string]: i }}
+            >
               <p className="tag">{plan.tag}</p>
-              <p className="price">{plan.price}</p>
-              <p className="per">{plan.per}</p>
+
+              <p className="price">
+                {cur ? <span className="cur">{cur}</span> : null}
+                <b>{value}</b>
+                <span className="per">{plan.per}</span>
+              </p>
+
               <ul>
                 {plan.items.map((item) => (
-                  <li key={String(item)}>{item}</li>
+                  <li key={String(item)}>
+                    <Check />
+                    <span>{item}</span>
+                  </li>
                 ))}
               </ul>
 
@@ -50,7 +67,8 @@ export function Pricing({ t, lang }: { t: T; lang: Lang }) {
                 </div>
               ) : null}
             </div>
-          ))}
+            );
+          })}
         </div>
 
         <p className="no-unlimited">

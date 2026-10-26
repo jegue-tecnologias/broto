@@ -1,5 +1,6 @@
 import { Link } from "@/components/Link";
 
+import { HoverMenu } from "@/components/HoverMenu";
 import { ChevronDown, Globe } from "@/components/Icons";
 import {
   HTML_LANG,
@@ -18,7 +19,7 @@ export function LangMenu({ lang, alternates }: LangMenuProps) {
   const t = getT(LOCALE_BY_LANG[lang], "common");
 
   return (
-    <details className="langs">
+    <HoverMenu>
       <summary aria-label={t("langAria")}>
         <Globe />
         <span>{t("langName")}</span>
@@ -43,6 +44,6 @@ export function LangMenu({ lang, alternates }: LangMenuProps) {
           );
         })}
       </div>
-    </details>
+    </HoverMenu>
   );
 }

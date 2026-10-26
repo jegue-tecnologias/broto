@@ -135,6 +135,60 @@ export function Send() {
   );
 }
 
+export function Clip() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M20 11.2 12.4 18.8a4.6 4.6 0 0 1-6.6-6.5l7.8-7.8a3.1 3.1 0 0 1 4.4 4.4l-7.7 7.8a1.6 1.6 0 0 1-2.2-2.2l7-7.1" />
+    </svg>
+  );
+}
+
+export function Camera() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M4.4 7.8h3.1l1.4-2.2h6.2l1.4 2.2h3.1a1.6 1.6 0 0 1 1.6 1.6v8a1.6 1.6 0 0 1-1.6 1.6H4.4a1.6 1.6 0 0 1-1.6-1.6v-8a1.6 1.6 0 0 1 1.6-1.6Z" />
+      <circle cx="12" cy="13.2" r="3.4" />
+    </svg>
+  );
+}
+
+export function Mic() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="9.2" y="2.8" width="5.6" height="11" rx="2.8" />
+      <path d="M5.4 11.4a6.6 6.6 0 0 0 13.2 0" />
+      <path d="M12 18v3.2" />
+    </svg>
+  );
+}
+
+export function ThumbUp() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" aria-hidden="true">
+      <path d="M7.4 21V9.8l4.3-7a2 2 0 0 1 3 2.3l-1.1 4.1h4.9a2.2 2.2 0 0 1 2.1 2.8l-1.9 7A2.2 2.2 0 0 1 16.6 21Z" />
+      <rect x="2.6" y="9.8" width="4.8" height="11.2" rx="1.4" />
+    </svg>
+  );
+}
+
+export function ThumbDown() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" aria-hidden="true">
+      <path d="M16.6 3v11.2l-4.3 7a2 2 0 0 1-3-2.3l1.1-4.1H5.5a2.2 2.2 0 0 1-2.1-2.8l1.9-7A2.2 2.2 0 0 1 7.4 3Z" />
+      <rect x="16.6" y="3" width="4.8" height="11.2" rx="1.4" />
+    </svg>
+  );
+}
+
+export function Flag() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M5.6 21V4.2" />
+      <path d="M5.6 5.2h10.8l-1.8 3.6 1.8 3.6H5.6" />
+    </svg>
+  );
+}
+
 export function Dash() {
   return (
     <svg viewBox="0 0 14 14" aria-hidden="true">
@@ -201,4 +255,115 @@ export function FaceFeatures() {
 
 export function Sprig() {
   return <path d="M0 -42 Q3.7 -46.4 4.9 -51.3" fill="none" stroke="#6E8265" strokeWidth="5" strokeLinecap="round" />;
+}
+
+export function Back() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M14.5 5.5 8 12l6.5 6.5" />
+    </svg>
+  );
+}
+
+export function Share() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 3.5v11" />
+      <path d="M8.2 7.3 12 3.5l3.8 3.8" />
+      <path d="M6 12.5v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-6" />
+    </svg>
+  );
+}
+
+export function Thermo() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M13.5 13.6V5.2a1.9 1.9 0 0 0-3.8 0v8.4a3.6 3.6 0 1 0 3.8 0" />
+      <path d="M11.6 8.6v6.2" />
+    </svg>
+  );
+}
+
+export function Shovel() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M19.5 4.5 13 11" />
+      <path d="M17 3h4v4" />
+      <path d="M11.4 9.4 14.6 12.6 10.4 16.8a2.3 2.3 0 0 1-3.2 0l0 0a2.3 2.3 0 0 1 0-3.2z" />
+    </svg>
+  );
+}
+
+export function Spark() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 3.6c.6 4.4 3.4 7.2 7.8 7.8-4.4.6-7.2 3.4-7.8 7.8-.6-4.4-3.4-7.2-7.8-7.8 4.4-.6 7.2-3.4 7.8-7.8Z" />
+    </svg>
+  );
+}
+
+export function Download() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 3.8v10.4" />
+      <path d="M7.8 10.4 12 14.6l4.2-4.2" />
+      <path d="M4.6 18.4h14.8" />
+    </svg>
+  );
+}
+
+export function Apple() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09z" />
+      <path d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+    </svg>
+  );
+}
+
+export function Play() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M5.4 2.3a1.1 1.1 0 0 0-1.7.95v17.5a1.1 1.1 0 0 0 1.7.95l13.9-8.75a1.1 1.1 0 0 0 0-1.9L5.4 2.3z" />
+    </svg>
+  );
+}
+
+export function Bell() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M18 8.6a6 6 0 1 0-12 0c0 6.1-2.2 7.4-2.2 7.4h16.4S18 14.7 18 8.6" />
+      <path d="M13.7 19.6a2 2 0 0 1-3.4 0" />
+    </svg>
+  );
+}
+
+export function Expand() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M14.5 4.5h5v5" />
+      <path d="M9.5 19.5h-5v-5" />
+      <path d="M19.5 4.5 13.5 10.5" />
+      <path d="M4.5 19.5 10.5 13.5" />
+    </svg>
+  );
+}
+
+export function Right() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M4.5 12h14" />
+      <path d="m13 6.5 5.5 5.5-5.5 5.5" />
+    </svg>
+  );
+}
+
+export function Dots() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <circle cx="5" cy="12" r="1.8" />
+      <circle cx="12" cy="12" r="1.8" />
+      <circle cx="19" cy="12" r="1.8" />
+    </svg>
+  );
 }

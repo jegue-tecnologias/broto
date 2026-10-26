@@ -59,11 +59,11 @@ export function Body() {
 
       <h2>Excluir a conta não cancela a assinatura</h2>
       <div className="callout danger">
-        <p>A assinatura pertence à sua conta da App Store ou do Google Play, não à sua conta do Broto. <strong>Cancele a assinatura na loja antes de excluir sua conta</strong> — caso contrário a cobrança continua mesmo sem o app. Veja <Link href="/exclusao">Excluir conta e dados</Link>.</p>
+        <p>A assinatura pertence à sua conta da App Store ou do Google Play, não à sua conta do Broto. <strong>Cancele a assinatura na loja antes de excluir sua conta</strong> — caso contrário a cobrança continua mesmo sem o aplicativo. Veja <Link href="/exclusao">Excluir conta e dados</Link>.</p>
       </div>
 
       <h2>Mudança de preço</h2>
-      <p>Se os valores mudarem, avisamos com antecedência dentro do app e por e-mail. O novo preço só passa a valer na renovação seguinte, e você pode cancelar antes disso.</p>
+      <p>Se os valores mudarem, avisamos com antecedência dentro do aplicativo e por e-mail. O novo preço só passa a valer na renovação seguinte, e você pode cancelar antes disso.</p>
     </>
   );
 }

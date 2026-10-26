@@ -1,4 +1,12 @@
-import { Bolt, Close, Gallery, HelpCircle, PlantMark } from "@/components/Icons";
+import {
+  Bolt,
+  Close,
+  Gallery,
+  HelpCircle,
+  Info,
+  PlantMark,
+  Sprout,
+} from "@/components/Icons";
 import { Rich } from "@/components/Rich";
 import type { T } from "@/i18n";
 
@@ -6,8 +14,15 @@ export function CameraMock({ t }: { t: T }) {
   return (
     <div className="app-camera">
       <div className="cam-view">
-        <div className="cam-guide">
+        <div className="cam-plant">
           <PlantMark tone="muted" />
+        </div>
+
+        <div className="cam-guide" aria-hidden="true">
+          <i />
+          <i />
+          <i />
+          <i />
         </div>
         <div className="cam-top">
           <span className="cam-circle">
@@ -29,6 +44,15 @@ export function CameraMock({ t }: { t: T }) {
           </p>
         </div>
       </div>
+      <div className="cam-tray">
+        {[0, 1, 2].map((slot) => (
+          <span key={slot} className="cam-thumb" style={{ ["--i" as string]: slot }}>
+            <Sprout />
+          </span>
+        ))}
+        <span className="cam-tray-label">{t("camera.tray")}</span>
+      </div>
+
       <div className="cam-bar">
         <div className="cam-action">
           <span className="cam-side">
@@ -43,7 +67,10 @@ export function CameraMock({ t }: { t: T }) {
           <span className="cam-label">{t("camera.shutter")}</span>
         </div>
         <div className="cam-action">
-          <span className="cam-ph" />
+          <span className="cam-side">
+            <Info />
+          </span>
+          <span className="cam-label">{t("camera.tips")}</span>
         </div>
       </div>
     </div>

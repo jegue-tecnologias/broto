@@ -16,6 +16,12 @@ export const HOME: Record<Lang, string> = {
   es: "/es",
 };
 
+export const HOW: Record<Lang, string> = {
+  pt: "/como-funciona",
+  en: "/en/how-it-works",
+  es: "/es/como-funciona",
+};
+
 export const ANCHORS: Record<Lang, { how: string; pricing: string }> = {
   pt: { how: "como-funciona", pricing: "precos" },
   en: { how: "how-it-works", pricing: "pricing" },

@@ -69,6 +69,8 @@ export function CameraScreen({ labels }: { labels: Labels }) {
     const node = card.current;
     if (!node || event.button !== 0) return;
 
+    const esc =
+      Number(getComputedStyle(node).getPropertyValue("--esc")) || 0.8;
     const base = node.getBoundingClientRect().height;
     const inicio = event.clientY;
     let dy = 0;
@@ -76,7 +78,7 @@ export function CameraScreen({ labels }: { labels: Labels }) {
     const move = (passo: PointerEvent) => {
       dy = Math.max(0, passo.clientY - inicio);
       node.style.transition = "none";
-      node.style.transform = "scale(0.8) translateY(" + dy / 0.8 + "px)";
+      node.style.transform = "scale(" + esc + ") translateY(" + dy / esc + "px)";
     };
 
     const solta = () => {
@@ -86,7 +88,8 @@ export function CameraScreen({ labels }: { labels: Labels }) {
       node.style.transition = "transform 0.22s cubic-bezier(0.22, 1, 0.36, 1)";
 
       if (dy > base * 0.3) {
-        node.style.transform = "scale(0.8) translateY(" + base / 0.8 + "px)";
+        node.style.transform =
+          "scale(" + esc + ") translateY(" + base / esc + "px)";
         window.setTimeout(fechaDicas, 200);
         return;
       }

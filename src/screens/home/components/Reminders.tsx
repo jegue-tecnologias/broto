@@ -7,7 +7,9 @@ export function Reminders({ t }: { t: T }) {
   return (
     <section id="lembretes">
       <div className="wrap split">
-        <LockMock t={t} />
+        <div className="phone is-small">
+          <LockMock t={t} />
+        </div>
         <div>
           <p className="eyebrow">{t("reminders.eyebrow")}</p>
           <h2>{t("reminders.title")}</h2>

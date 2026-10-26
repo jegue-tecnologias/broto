@@ -31,7 +31,9 @@ export function BrotinhoSection({ t }: { t: T }) {
           <p>{t("brotinho.text")}</p>
         </div>
 
-        <ChatScreen labels={labels} />
+        <div className="phone is-small">
+          <ChatScreen labels={labels} />
+        </div>
       </div>
     </section>
   );

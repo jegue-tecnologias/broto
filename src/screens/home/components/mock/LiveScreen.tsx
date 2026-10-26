@@ -190,7 +190,7 @@ export function LiveScreen({
     };
 
     const onDown = (event: PointerEvent) => {
-      if (event.button !== 0) return;
+      if (event.button !== 0 || event.pointerType === "touch") return;
 
       cancelAnimationFrame(glide);
 

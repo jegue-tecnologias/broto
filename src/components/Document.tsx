@@ -9,6 +9,9 @@ import "@/style/globals.css";
 
 const BOOT = [
   "document.documentElement.classList.add('js');",
+  "if(/[?&]app=1(&|$)/.test(location.search)){",
+  "document.documentElement.classList.add('in-app');",
+  "}",
   "var h=location.hash.slice(1);",
   "if(h){",
   "document.documentElement.dataset.hash=h;",

@@ -8,7 +8,7 @@ export function Body() {
   return (
     <>
       <h1>Términos de Uso</h1>
-      <p className="updated">Vigente desde el 22 de agosto de 2026</p>
+      <p className="updated">Vigente desde el 16 de noviembre de 2026</p>
 
       <p className="intro">Al crear una cuenta en Broto aceptas estos términos. Si no estás de acuerdo con alguna parte, no uses la app.</p>
 
@@ -51,10 +51,10 @@ export function Body() {
       <p>Las cuentas que incumplan estas reglas pueden ser suspendidas o cerradas.</p>
 
       <h2>Suscripción</h2>
-      <p>Broto ofrece tres días de prueba con acceso completo desde el registro y una suscripción completa con hasta 40 análisis y 150 mensajes de Brotinho al mes. Las condiciones completas, incluidos precios, cancelación y reembolso, están en <Link href="/es/reembolso">Suscripción y reembolsos</Link>.</p>
+      <p>Broto ofrece tres días de prueba desde el registro, sin tarjeta y sin cobro, con hasta 10 análisis y 50 mensajes de Brotinho en total. Después de la prueba, sin suscripción, solo siguen funcionando las funciones de riego: guardar plantas, marcar que las regaste y recibir el recordatorio de riego. La suscripción completa cuesta R$ 13,00 al mes o R$ 120,00 al año y da hasta 40 análisis y 150 mensajes de Brotinho al mes. Las condiciones completas, incluidos precios, cancelación y reembolso, están en <Link href="/es/reembolso">Suscripción y reembolsos</Link>.</p>
 
       <h3>Límite de uso razonable</h3>
-      <p>Los <strong>40 análisis al mes</strong> se aplican a los análisis incluidos en tu plan. Por encima de eso, cada cuenta puede hacer como máximo <strong>50 análisis al día</strong>, contándolo todo, y enviar como máximo <strong>150 mensajes al mes</strong> a Brotinho, con un máximo de <strong>30 al día</strong>. Ningún plan de Broto es ilimitado. El contador se reinicia a medianoche UTC. El tope diario existe para proteger el servicio del uso automatizado y de las cuentas compartidas — en uso normal nadie se acerca. Los análisis fallidos no cuentan para el límite.</p>
+      <p>La prueba incluye hasta <strong>10 análisis</strong> y <strong>50 mensajes</strong> a Brotinho en total. La suscripción completa incluye hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> a Brotinho. En cualquier caso, cada cuenta puede hacer como máximo <strong>50 análisis al día</strong>, contándolo todo, y enviar como máximo <strong>30 mensajes al día</strong>. Ningún plan de Broto es ilimitado. El contador se reinicia a medianoche UTC. El tope diario existe para proteger el servicio del uso automatizado y de las cuentas compartidas — en uso normal nadie se acerca. Los análisis fallidos no cuentan para el límite.</p>
 
       <h3>Quién vende la suscripción</h3>
       <p>Las suscripciones las vende la <strong>App Store</strong> o <strong>Google Play</strong>, según dónde hayas descargado la app. Son ellas las que cobran, emiten el comprobante y procesan los reembolsos. Estos Términos regulan el uso de Broto; la compra en sí sigue también las condiciones de la tienda donde se hizo.</p>

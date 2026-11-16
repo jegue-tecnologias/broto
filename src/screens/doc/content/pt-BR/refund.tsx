@@ -8,15 +8,14 @@ export function Body() {
   return (
     <>
       <h1>Assinatura e reembolso</h1>
-      <p className="updated">Vigente desde 20 de agosto de 2026</p>
+      <p className="updated">Vigente desde 16 de novembro de 2026</p>
 
       <p className="intro">Como funciona a cobrança do Broto, como cancelar e como pedir dinheiro de volta.</p>
 
       <h2>O que é gratuito</h2>
       <ul>
-        <li><strong>3 para começar</strong> — a do mês mais 2 de boas-vindas, que são uma vez só e ficam guardadas até você usar — e <strong>1 por mês</strong> depois, renovada no dia 1º.</li>
-        <li>Nos 3 primeiros dias depois do cadastro, tudo o que a assinatura completa tem é gratuito: análise, Brotinho e lembrete de todos os cuidados.</li>
-        <li>Depois disso, cadastrar plantas, registrar que regou e receber o lembrete continua gratuito e sem limite de quantidade.</li>
+        <li>Nos <strong>3 primeiros dias</strong> depois do cadastro, sem cartão e sem cobrança, você tem até <strong>10 análises</strong> e <strong>50 mensagens</strong> do Brotinho no total, e o lembrete de todos os cuidados.</li>
+        <li>Depois disso, cadastrar plantas, registrar que regou e receber o lembrete de regar continua gratuito e sem limite de quantidade. Análise, Brotinho e os outros lembretes param até você assinar.</li>
       </ul>
 
       <h2>Assinaturas</h2>
@@ -24,12 +23,12 @@ export function Body() {
         <table>
           <thead><tr><th>Plano</th><th>Preço</th><th>Cobrança</th></tr></thead>
           <tbody>
-            <tr><td>Completo mensal</td><td>R$ 12,90</td><td>Renova todo mês</td></tr>
-            <tr><td>Completo anual</td><td>R$ 119,90</td><td>Renova todo ano</td></tr>
+            <tr><td>Completo mensal</td><td>R$ 13,00</td><td>Renova todo mês</td></tr>
+            <tr><td>Completo anual</td><td>R$ 120,00</td><td>Renova todo ano · sai por R$ 10,00 por mês</td></tr>
           </tbody>
         </table>
       </div>
-      <p>A assinatura completa dá até <strong>40 análises por mês</strong> e <strong>150 mensagens por mês</strong> com o Brotinho. Continua valendo o limite de <strong>30 mensagens por dia</strong> descrito nos <Link href="/termos">Termos de Uso</Link>.</p>
+      <p>A assinatura completa dá até <strong>40 análises por mês</strong> e <strong>150 mensagens por mês</strong> com o Brotinho. Continua valendo o limite de <strong>50 análises</strong> e <strong>30 mensagens por dia</strong> descrito nos <Link href="/termos">Termos de Uso</Link>.</p>
       <p>A assinatura é <strong>renovada automaticamente</strong> pela App Store ou pelo Google Play até que você cancele. A cobrança acontece na conta da loja, e nós não temos acesso aos dados do seu cartão.</p>
 
       <h2>Como cancelar</h2>

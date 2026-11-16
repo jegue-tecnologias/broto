@@ -9,7 +9,7 @@
     "title": "Uma foto, e você descobre o que a sua planta tem",
     "lede": "Fotografe a planta. O Broto devolve a espécie, os cuidados dela e, quando tem algo errado, as causas prováveis em ordem — com um teste que você faz em casa para saber qual é.",
     "soon": "Em breve na App Store e no Google Play",
-    "note": "3 dias com tudo liberado, sem cobrança alguma.",
+    "note": "3 dias de teste com 10 análises e 50 mensagens do Brotinho, sem cobrança alguma.",
     "cta": "Ver como funciona"
   },
   "mock": {
@@ -342,21 +342,21 @@
   "pricing": {
     "eyebrow": "Preços",
     "title": "Começa de graça",
-    "lede": "Nos 3 primeiros dias, tudo o que o completo tem é seu. Depois disso, cadastrar plantas, marcar que regou e receber o lembrete continua sem custar nada.",
+    "lede": "Nos 3 primeiros dias você testa com 10 análises, 50 mensagens do Brotinho e lembrete de todos os cuidados. Depois disso, cadastrar plantas, marcar que regou e receber o lembrete de regar continua sem custar nada.",
     "plans": [
       {
         "tag": "Grátis",
         "price": "R$ 0",
-        "per": "3 dias com tudo",
+        "per": "3 dias de teste",
         "items": [
-          "Análise e Brotinho liberados",
+          "10 análises e 50 mensagens do Brotinho",
           "Lembrete de todos os cuidados",
           "Depois, o lembrete de regar segue de graça"
         ]
       },
       {
         "tag": "Completo",
-        "price": "R$ 12,90",
+        "price": "R$ 13,00",
         "per": "por mês",
         "items": [
           "40 análises por mês",
@@ -364,9 +364,9 @@
           "Todas as tarefas de cuidado"
         ],
         "year": {
-          "price": "R$ 119,90",
+          "price": "R$ 120,00",
           "label": "anual",
-          "note": "<strong>Economize R$ 34,90</strong> · sai por R$ 9,99 por mês"
+          "note": "<strong>Economize R$ 36,00</strong> · sai por R$ 10,00 por mês"
         }
       }
     ],
@@ -412,7 +412,7 @@
   "download": {
     "eyebrow": "Baixar",
     "title": "Falta pouco para levar o Broto para casa",
-    "text": "Os 3 primeiros dias são completos, sem cobrança e sem cartão. Depois você decide se continua.",
+    "text": "Os 3 primeiros dias são de teste, com 10 análises e 50 mensagens do Brotinho, sem cobrança e sem cartão. Depois você decide se continua.",
     "soon": "Em breve",
     "apple": "App Store",
     "google": "Google Play",
@@ -431,7 +431,7 @@
     "items": [
       "Diz a causa, não só o nome",
       "Sem anúncios",
-      "3 dias completos, sem cartão",
+      "3 dias de teste, sem cartão",
       "Lembrete por planta, no seu horário"
     ]
   },
@@ -441,7 +441,7 @@
     "items": [
       {
         "q": "Preciso pagar para testar?",
-        "a": "Não. Os 3 primeiros dias têm tudo o que o plano completo tem, sem cobrança e sem pedir cartão. Depois você escolhe se assina ou segue no gratuito."
+        "a": "Não. Nos 3 primeiros dias você tem 10 análises, 50 mensagens do Brotinho e lembrete de todos os cuidados, sem cobrança e sem pedir cartão. Depois você escolhe se assina ou segue no gratuito."
       },
       {
         "q": "Funciona sem internet?",

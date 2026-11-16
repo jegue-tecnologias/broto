@@ -8,7 +8,7 @@ export function Body() {
   return (
     <>
       <h1>Terms of Use</h1>
-      <p className="updated">Effective 22 August 2026</p>
+      <p className="updated">Effective 16 November 2026</p>
 
       <p className="intro">By creating a Broto account you agree to these terms. If you disagree with any part of them, do not use the app.</p>
 
@@ -51,10 +51,10 @@ export function Body() {
       <p>Accounts that break these rules may be suspended or terminated.</p>
 
       <h2>Subscription</h2>
-      <p>Broto offers a three-day trial with full access from sign-up and a complete subscription with up to 40 analyses and 150 Brotinho messages a month. The full conditions, including prices, cancellation and refunds, are in <Link href="/en/refund">Subscription and refunds</Link>.</p>
+      <p>Broto offers a three-day trial from sign-up, with no card and no charge, with up to 10 analyses and 50 Brotinho messages in total. After the trial, without a subscription, only the watering features keep working: saving plants, marking them watered and getting the watering reminder. The complete subscription costs R$ 13.00 a month or R$ 120.00 a year and gives up to 40 analyses and 150 Brotinho messages a month. The full conditions, including prices, cancellation and refunds, are in <Link href="/en/refund">Subscription and refunds</Link>.</p>
 
       <h3>Fair use limit</h3>
-      <p>The <strong>40 analyses per month</strong> apply to the analyses included in your plan. On top of that, each account can run at most <strong>50 analyses per day</strong>, counting everything, and send at most <strong>150 messages per month</strong> to Brotinho, with a maximum of <strong>30 per day</strong>. No Broto plan is unlimited. The counter resets at midnight UTC. The daily ceiling exists to protect the service from automated use and shared accounts — normal use never comes close to it. Failed analyses do not count towards the limit.</p>
+      <p>The trial includes up to <strong>10 analyses</strong> and <strong>50 messages</strong> to Brotinho in total. The complete subscription includes up to <strong>40 analyses per month</strong> and <strong>150 messages per month</strong> to Brotinho. In every case, each account can run at most <strong>50 analyses per day</strong>, counting everything, and send at most <strong>30 messages per day</strong>. No Broto plan is unlimited. The counter resets at midnight UTC. The daily ceiling exists to protect the service from automated use and shared accounts — normal use never comes close to it. Failed analyses do not count towards the limit.</p>
 
       <h3>Who sells the subscription</h3>
       <p>Subscriptions are sold by the <strong>App Store</strong> or <strong>Google Play</strong>, depending on where you downloaded the app. They charge you, issue the receipt and process refunds. These Terms govern the use of Broto; the purchase itself also follows the terms of the store where it was made.</p>

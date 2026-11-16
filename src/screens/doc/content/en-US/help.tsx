@@ -29,7 +29,9 @@ export function Body() {
       <h2>Analyses and credits</h2>
 
       <h3>How many analyses do I have?</h3>
-      <p>You start with <strong>three</strong>: the one for the month plus <strong>two welcome analyses</strong>. The welcome ones are a <strong>one-time gift</strong> — they do not come back next month, but they do not run out either: they sit there until you use them. After those it is <strong>one per month</strong>, renewed on the 1st. When they run out you can subscribe. A subscription gives up to <strong>40 analyses a month</strong> and <strong>150 messages a month</strong> with Brotinho, with a limit of 30 messages per day.</p>
+      <p>For the <strong>first 3 days</strong> after sign-up you try Broto with no card and no charge. You get up to <strong>10 analyses</strong> and <strong>50 messages</strong> with Brotinho in total, and reminders for every care task work.</p>
+      <p>When the trial ends and you have not subscribed, saving plants, marking them watered and getting the watering reminder stay free. Analysis, Brotinho and the other reminders stop.</p>
+      <p>The complete subscription costs <strong>R$ 13.00 a month</strong> or <strong>R$ 120.00 a year</strong>, which works out at R$ 10.00 a month. It gives up to <strong>40 analyses a month</strong> and <strong>150 messages a month</strong> with Brotinho, with a limit of 50 analyses and 30 messages per day.</p>
 
       <h2>Brotinho</h2>
 
@@ -37,7 +39,7 @@ export function Body() {
       <p>Plant care questions. It can see the data of the plants you have saved, so you can ask about one of them directly. What it will not do: pesticide dosages, or whether a plant is edible.</p>
 
       <h3>I ran out of messages</h3>
-      <p><strong>150 a month</strong>, with a limit of 30 per day, renewed on the 1st. Brotinho comes with the full plan and can also be subscribed to on its own.</p>
+      <p>The trial has <strong>50 in total</strong>. The complete subscription has <strong>150 a month</strong>, with a limit of 30 per day, renewed on the 1st.</p>
 
       <h2>Watering reminders</h2>
 

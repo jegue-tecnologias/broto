@@ -29,7 +29,9 @@ export function Body() {
       <h2>Análises e créditos</h2>
 
       <h3>Quantas análises eu tenho?</h3>
-      <p>Você começa com <strong>3</strong>: a do mês mais <strong>2 de boas-vindas</strong>. As de boas-vindas são <strong>uma vez só</strong> — não voltam no mês seguinte, mas também não vencem: ficam guardadas até você usar. Depois delas é <strong>1 por mês</strong>, renovada no dia 1º. Acabando, você pode assinar. A assinatura dá até <strong>40 análises por mês</strong> e <strong>150 mensagens por mês</strong> com o Brotinho, com limite de 30 mensagens por dia.</p>
+      <p>Nos <strong>3 primeiros dias</strong> depois do cadastro você testa o Broto sem cartão e sem cobrança. São até <strong>10 análises</strong> e <strong>50 mensagens</strong> com o Brotinho no total, e o lembrete de todos os cuidados funciona.</p>
+      <p>Acabou o teste e você não assinou, continua de graça cadastrar plantas, marcar que regou e receber o lembrete de regar. Análise, Brotinho e os outros lembretes param.</p>
+      <p>A assinatura completa custa <strong>R$ 13,00 por mês</strong> ou <strong>R$ 120,00 por ano</strong>, que sai por R$ 10,00 por mês. Ela dá até <strong>40 análises por mês</strong> e <strong>150 mensagens por mês</strong> com o Brotinho, com limite de 50 análises e 30 mensagens por dia.</p>
 
       <h2>Brotinho</h2>
 
@@ -37,7 +39,7 @@ export function Body() {
       <p>Dúvidas de cuidado de planta. Ele enxerga os dados das plantas que você cadastrou, então dá para perguntar sobre uma delas direto. O que ele não faz: dosagem de defensivo e dizer se alguma planta é comestível.</p>
 
       <h3>Acabaram minhas mensagens</h3>
-      <p>São <strong>150 por mês</strong>, com limite de 30 por dia, e renovam no dia 1º. O Brotinho vem no plano completo e também pode ser assinado sozinho.</p>
+      <p>No teste são <strong>50 no total</strong>. Na assinatura completa são <strong>150 por mês</strong>, com limite de 30 por dia, e renovam no dia 1º.</p>
 
       <h2>Lembretes de cuidado</h2>
 

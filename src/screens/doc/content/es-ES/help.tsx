@@ -29,7 +29,9 @@ export function Body() {
       <h2>Análisis y créditos</h2>
 
       <h3>¿Cuántos análisis tengo?</h3>
-      <p>Empiezas con <strong>tres</strong>: el del mes más <strong>dos de bienvenida</strong>. Los de bienvenida son <strong>una sola vez</strong> — no vuelven el mes siguiente, pero tampoco caducan: se quedan ahí hasta que los uses. Después de esos es <strong>uno al mes</strong>, renovado el día 1. Cuando se acaban, puedes suscribirte. La suscripción da hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> con Brotinho, con un límite de 30 mensajes al día.</p>
+      <p>Durante los <strong>3 primeros días</strong> después del registro pruebas Broto sin tarjeta y sin cobro. Tienes hasta <strong>10 análisis</strong> y <strong>50 mensajes</strong> con Brotinho en total, y el recordatorio de todos los cuidados funciona.</p>
+      <p>Cuando termina la prueba y no te has suscrito, guardar plantas, marcar que las regaste y recibir el recordatorio de riego sigue siendo gratis. El análisis, Brotinho y los demás recordatorios se detienen.</p>
+      <p>La suscripción completa cuesta <strong>R$ 13,00 al mes</strong> o <strong>R$ 120,00 al año</strong>, que sale a R$ 10,00 al mes. Da hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> con Brotinho, con un límite de 50 análisis y 30 mensajes al día.</p>
 
       <h2>Brotinho</h2>
 
@@ -37,7 +39,7 @@ export function Body() {
       <p>Dudas sobre el cuidado de las plantas. Puede ver los datos de las plantas que guardaste, así que puedes preguntarle por una de ellas directamente. Lo que no hace: dosis de fitosanitarios ni decir si una planta es comestible.</p>
 
       <h3>Se me acabaron los mensajes</h3>
-      <p>Son <strong>150 al mes</strong>, con un límite de 30 al día, y se renuevan el día 1. Brotinho viene en el plan completo y también se puede contratar por separado.</p>
+      <p>En la prueba son <strong>50 en total</strong>. En la suscripción completa son <strong>150 al mes</strong>, con un límite de 30 al día, y se renuevan el día 1.</p>
 
       <h2>Recordatorios de riego</h2>
 

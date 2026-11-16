@@ -8,15 +8,14 @@ export function Body() {
   return (
     <>
       <h1>Suscripción y reembolsos</h1>
-      <p className="updated">Vigente desde el 20 de agosto de 2026</p>
+      <p className="updated">Vigente desde el 16 de noviembre de 2026</p>
 
       <p className="intro">Cómo cobra Broto, cómo cancelar y cómo recuperar tu dinero.</p>
 
       <h2>Qué es gratuito</h2>
       <ul>
-        <li><strong>3 para empezar</strong> — el del mes más 2 de bienvenida, que son una sola vez y se quedan ahí hasta que los uses — y <strong>1 al mes</strong> después, renovado el día 1.</li>
-        <li>Durante los 3 primeros días después del registro, todo lo de la suscripción completa es gratuito: análisis, Brotinho y recordatorio de todos los cuidados.</li>
-        <li>Después, registrar plantas, anotar riegos y recibir su recordatorio sigue siendo gratuito y sin límite de cantidad.</li>
+        <li>Durante los <strong>3 primeros días</strong> después del registro, sin tarjeta y sin cobro, tienes hasta <strong>10 análisis</strong> y <strong>50 mensajes</strong> de Brotinho en total, y el recordatorio de todos los cuidados.</li>
+        <li>Después, registrar plantas, anotar riegos y recibir su recordatorio sigue siendo gratuito y sin límite de cantidad. El análisis, Brotinho y los demás recordatorios se detienen hasta que te suscribas.</li>
       </ul>
 
       <h2>Suscripciones</h2>
@@ -24,12 +23,12 @@ export function Body() {
         <table>
           <thead><tr><th>Plan</th><th>Precio</th><th>Cobro</th></tr></thead>
           <tbody>
-            <tr><td>Completo mensual</td><td>R$ 12,90</td><td>Se renueva cada mes</td></tr>
-            <tr><td>Completo anual</td><td>R$ 119,90</td><td>Se renueva cada año</td></tr>
+            <tr><td>Completo mensual</td><td>R$ 13,00</td><td>Se renueva cada mes</td></tr>
+            <tr><td>Completo anual</td><td>R$ 120,00</td><td>Se renueva cada año · sale a R$ 10,00 al mes</td></tr>
           </tbody>
         </table>
       </div>
-      <p>La suscripción completa da hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> con Brotinho. Sigue aplicándose el límite de <strong>30 mensajes al día</strong> descrito en los <Link href="/es/terminos">Términos de Uso</Link>.</p>
+      <p>La suscripción completa da hasta <strong>40 análisis al mes</strong> y <strong>150 mensajes al mes</strong> con Brotinho. Siguen aplicándose los límites de <strong>50 análisis</strong> y <strong>30 mensajes al día</strong> descritos en los <Link href="/es/terminos">Términos de Uso</Link>.</p>
       <p>La suscripción se <strong>renueva automáticamente</strong> a través de la App Store o Google Play hasta que la canceles. El cobro se hace en tu cuenta de la tienda, y nosotros no tenemos acceso a los datos de tu tarjeta.</p>
 
       <h2>Cómo cancelar</h2>
